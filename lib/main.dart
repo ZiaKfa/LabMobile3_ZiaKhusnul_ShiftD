@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:terserah_kalian/home.dart';
+import 'package:terserah_kalian/login.dart';
 // import 'package:terserah_kalian/login.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
